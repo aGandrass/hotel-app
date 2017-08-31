@@ -1,0 +1,57 @@
+/* Body & Header & Navigation */
+body {
+	background-color: #f8f8f8;
+	font-family: aaux-next, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 14px;
+	color: #6C6C6C;
+}
+.mainMenu {
+	padding: 15px 30px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.2);
+	background: #ffffff;
+	color: #6C6C6C;
+    margin-right: auto;
+    margin-left: auto;
+	margin-bottom: 50px;
+}
+a {
+	color: #6C6C6C;
+	text-decoration: none;
+}
+.nav-link:hover {
+	color: #5A07AA;
+}
+
+.nav-link.active {
+	font-weight: 400;
+	border-bottom: 2px solid #5A07AA;
+}
+
+/* Index & Main Boxes */
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0px;
+	box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.2);
+}
+.card-header {
+    padding: 10px 30px;
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-header h4 {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
